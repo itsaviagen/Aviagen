@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
   const { message } = req.body;
   const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID || '6973858076';
+  const chatId = process.env.TELEGRAM_CHAT_ID || '5715293742';
 
   if (!token) {
     return res.status(500).json({ error: 'Telegram token not configured' });
